@@ -7,3 +7,11 @@ def countdown(time)
   end
   return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(sec)
+  prev = Time.now.to_i
+  while Time.now.to_i-sec < prev
+  end
+  
+  
+end
