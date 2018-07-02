@@ -9,7 +9,7 @@ def countdown(time)
 end
 
 def countdown_with_sleep(sec)
-  prev = Time.now.to_i
+  prev = Time.now.to_i+1
   while Time.now.to_i-sec < prev
   end
   
